@@ -1,4 +1,5 @@
-﻿<title>Tag opgave</title>
+﻿<?php require_once('../../config.php'); ?>
+<title>Tag opgave</title>
 <head>
 <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
 <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
@@ -14,7 +15,7 @@
 
 /* connect to the db */
 
-$connection = mysqli_connect('localhost','statusophug1','Qwer1234','statusophug1');
+$connection = mysqli_connect($dbhost,$dbuser,$dbpass,$db);
 mysqli_query($connection,"SET NAMES utf8");
 mysqli_query($connection,"SET character_set_results= ^ ^ utf8 ^  ");
 
