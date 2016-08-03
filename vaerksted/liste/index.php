@@ -7,6 +7,11 @@
 <meta http-equiv="refresh" content="60;url=./">
 </head>
 <p>Arbejdsliste</p>
+<p>
+<table><tr><td><FORM METHOD="LINK" ACTION="../index.php">
+                <button TYPE="submit" class="knap"><span><img src="/images/leftturnarrow32.png" height="15px"/> Forside</span></button>
+            </FORM></td></tr>
+</table></p>
 <?php
 /* connect to the db */
 $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$db);
@@ -21,4 +26,3 @@ mysqli_query($connection, "SET character_set_results=’utf8′");
 
 $connection->close();
 ?>
-<p><a href=../>Tilbage til forsiden</a></p>

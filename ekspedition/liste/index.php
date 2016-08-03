@@ -15,7 +15,6 @@
 </FORM></td></tr>
 </table></p>
 
-<br/>
 <?php
 
 $connection = mysqli_connect($dbhost,$dbuser,$dbpass,$db);
