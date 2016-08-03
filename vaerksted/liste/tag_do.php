@@ -22,7 +22,7 @@ mysqli_query($connection,"SET character_set_results= ^ ^ utf8 ^  ");
 $sql = "UPDATE afmont SET mekaniker='$mekaniker',status='På vej' WHERE id='$id'";
 
 $result = mysqli_query($connection, $sql);
-echo '<p>Optaget taget OK</p>';
+echo "<p>Optaget taget OK $mekaniker</p>";
 
 
 
