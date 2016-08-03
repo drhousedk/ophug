@@ -32,7 +32,7 @@ while ($row = mysqli_fetch_array($result)) {
 
         while ($row = mysqli_fetch_array($result2)) {
             $navn = $row['navn'];
-            echo "<a href=tag_do.php?id=$id&mekaniker=".$navn.">$navn</a> - ";
+            echo "<a href='tag_do.php?id=$id&mekaniker=$navn'>$navn</a> - ";
         }
 
         $connection2->close();
