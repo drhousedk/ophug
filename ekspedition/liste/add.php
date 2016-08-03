@@ -1,9 +1,9 @@
 <?php require_once('../../config.php'); ?>
 <title>Opret opgave</title>
 <head>
-    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-    <link href="http://status.ophug1.dk/style.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="/style.css" rel="stylesheet" type="text/css">
 </head>
 <p>Opret opgave</p>
 <form method="post" action="add_do.php">

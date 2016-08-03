@@ -1,9 +1,9 @@
 ﻿<?php require_once('../../config.php'); ?>
 <title>Tag opgave</title>
 <head>
-<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
-<link href="http://status.ophug1.dk/style.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="/style.css" rel="stylesheet" type="text/css">
 <meta http-equiv="refresh" content="3; url=./">
 </head>
 <p>Melder klar. Du stilles tilbage om 3 sekunder.</p>

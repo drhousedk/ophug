@@ -1,7 +1,7 @@
 <head>
     <meta http-equiv="refresh" content="60">
     <title>Arbejdsstyring</title>
-    <link href="http://status.ophug1.dk/style.css" rel="stylesheet" type="text/css">
+    <link href="/style.css" rel="stylesheet" type="text/css">
 </head>
 <style>
 
