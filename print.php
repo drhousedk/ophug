@@ -73,6 +73,10 @@ echo "
     <td class='tekst'>$besked</td>
 </tr>
 <tr>
+    <td class='overskrift'>Varetur</td>
+    <td class='tekst'>$varetur</td>
+</tr>
+<tr>
     <td class='overskrift'>Bestilt af</td>
     <td class='tekst'>$ekspedient</td>
 </tr>
