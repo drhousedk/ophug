@@ -1,7 +1,7 @@
 <head>
     <meta http-equiv="refresh" content="60">
     <title>Arbejdsstyring</title>
-    <link href="/style.css" rel="stylesheet" type="text/css">
+    <link href="/css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <style>
 
@@ -80,7 +80,8 @@
             </button>
         </FORM>
         <FORM METHOD="LINK" ACTION="../">
-            <button TYPE="submit" class="knap"><span><img src="/images/leftturnarrow32.png" height="15px"/> Tilbage</span>
+            <button TYPE="submit" class="knap"><span><img src="/images/leftturnarrow32.png"
+                                                          height="15px"/> Tilbage</span>
             </button>
         </FORM>
 
