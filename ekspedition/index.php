@@ -80,7 +80,7 @@
             </button>
         </FORM>
         <FORM METHOD="LINK" ACTION="../">
-            <button TYPE="submit" class="knap"><span><img src="/images/unlock32.png" height="15px"/> Log ud</span>
+            <button TYPE="submit" class="knap"><span><img src="/images/leftturnarrow32.png" height="15px"/> Tilbage</span>
             </button>
         </FORM>
 

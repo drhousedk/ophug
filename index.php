@@ -83,6 +83,10 @@
             <button TYPE="submit" class="knap"><span><img src="/images/spanner32.png" height="15px"/> Værksted</span>
             </button>
         </FORM>
+        <FORM METHOD="LINK" ACTION="<?php echo "https://logout@" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>">
+            <button TYPE="submit" class="knap"><span><img src="/images/unlock32.png" height="15px"/> Log ud</span>
+            </button>
+        </FORM>
 
         <div class="infobox">
             <?php include('./licens.php'); ?>
