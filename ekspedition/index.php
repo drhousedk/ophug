@@ -79,6 +79,16 @@
             <button TYPE="submit" class="knap"><span><img src="/images/note32.png" height="15px"/> Arbejdsliste</span>
             </button>
         </FORM>
+        <FORM METHOD="LINK" ACTION="../admin/ekspedient.php">
+            <button TYPE="submit" class="knap"><span><img src="/images/pencil32.png"
+                                                          height="15px"/> Ekspedienter</span>
+            </button>
+        </FORM>
+        <FORM METHOD="LINK" ACTION="../admin/mekaniker.php">
+            <button TYPE="submit" class="knap"><span><img src="/images/pencil32.png"
+                                                          height="15px"/> Mekaniker</span>
+            </button>
+        </FORM>
         <FORM METHOD="LINK" ACTION="../">
             <button TYPE="submit" class="knap"><span><img src="/images/leftturnarrow32.png"
                                                           height="15px"/> Tilbage</span>

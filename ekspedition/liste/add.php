@@ -50,10 +50,13 @@
 
                     while ($row = mysqli_fetch_array($result)) {
                         $navn = $row['navn'];
-                        echo "<option id='$navn'>$navn</option>";
+                        $ekspedient = "<option id='$navn'>$navn</option>";
+                        echo $ekspedient;
                     }
 
                     $connection->close();
+
+
                     ?>
                 </select></td>
         </tr>
