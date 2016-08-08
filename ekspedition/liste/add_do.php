@@ -35,7 +35,7 @@ $cleanupSQL = "DELETE FROM afmont WHERE id NOT IN (
     SELECT id
     FROM afmont
     ORDER BY id DESC
-    LIMIT 50
+    LIMIT 100
   ) x
 );";
 mysqli_query($connection,$cleanupSQL);
