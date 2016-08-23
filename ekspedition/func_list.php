@@ -2,7 +2,7 @@
  
  
   echo "<table>";
-  echo "<tr bgcolor='#333333'><td><b>Stamnr</b></td><td><b>Bil</b></td><td><b>Reservedel</b></td><td><b>Besked</b></td><td><b>Varetur</b></td><td><b>Status</b></td><td><b>Ekspedient</b></td><td><b>Mekaniker</b></td><td><b>Bestilt</b></td><td><b>Note fra værksted</b></td><td><b>Print</b></td></tr>";
+  echo "<tr bgcolor='#333333'><td><b>Stamnr</b></td><td><b>Bil</b></td><td><b>Reservedel</b></td><td><b>Besked</b></td><td><b>Varetur</b></td><td><b>Status</b></td><td><b>Ekspedient</b></td><td><b>Mekaniker</b></td><td><b>Bestilt</b></td><td><b>Note fra værksted</b></td><td><b>Print</b></td><td><b>Billede</b></td></tr>";
  
   while($row = mysqli_fetch_array($result)){
 
@@ -18,6 +18,9 @@
   $note = $row['note'];
   $besked = $row['besked'];
   $id = $row['id'];
+  $imgsize = $row['imgsize'];
+  $imgname = $row['imgname'];
+  $imgtype = $row['imgtype'];
 
 
  if ($status == "Bestilt") {
@@ -30,7 +33,18 @@
     $bgcolor = "#2BAB00";
   }
 
-echo "<tr bgcolor='$bgcolor'><td class='stamnr'>".$stamnr."</td><td class='bil'>".$bil."</td><td class='reservedel'>".$reservedel."</td><td class='besked'>".$besked."</td><td class='varetur'>".$varetur."</td><td class='status'>".$status."</td><td class='ekspedient'>".$ekspedient."</td><td class='mekaniker'>".$mekaniker."</td><td class='tid'>".$tid."</td><td class='note'>".$note."</td><td><center><a href='/print.php?id=".$id."' target='_blank'><img src='/images/printer32.png' height='20px' /></a></center></td></tr>";
+      if ( $imgsize > 0 ) { $imglink = "<center><a href='/getimage.php?id=$id' target='_blank'><img src='/images/camera32.png' height='20px' /></a></center>"; } else { $imglink = ""; }
+
+
+echo "<tr bgcolor='$bgcolor'><td class='stamnr'>".$stamnr."</td><td class='bil'>".$bil."</td><td class='reservedel'>".$reservedel."</td>
+<td class='besked'>".$besked."</td><td class='varetur'>".$varetur."</td><td class='status'>".$status."</td>
+<td class='ekspedient'>".$ekspedient."</td><td class='mekaniker'>".$mekaniker."</td><td class='tid'>".$tid."</td>
+<td class='note'>".$note."</td>
+<td><center><a href='/print.php?id=".$id."' target='_blank'><img src='/images/printer32.png' height='20px' /></a></center></td>
+<td>$imglink</td></tr>";
+
+
+
 }
 
 echo "</table>";

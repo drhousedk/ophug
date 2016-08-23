@@ -6,7 +6,7 @@
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
 </head>
 <p>Opret opgave</p>
-<form method="post" action="add_do.php">
+<form method="post" action="add_do.php" enctype="multipart/form-data">
     <table class="formtable">
         <tr>
             <td>Stamnr:</td>
@@ -59,6 +59,11 @@
 
                     ?>
                 </select></td>
+        </tr>
+        <tr>
+            <td>Evt. billede:</td>
+            <td><input type="hidden" name="MAX_FILE_SIZE" value="2000000">
+                <input name="userfile" type="file" id="userfile" accept=".jpg,.jpeg"> </td>
         </tr>
         <tr>
             <td></td>

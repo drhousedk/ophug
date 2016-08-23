@@ -47,8 +47,15 @@ $result = mysqli_query($connection,$sql)or die(mysql_error());
       $id = $row['id'];
       $besked = $row['besked'];
       $note = $row['note'];
+      $image_data = $row['imgcontent'];
+      $image_size= $row['imgsize'];
 
       if ($besked == "") { $besked = "-"; }
+
+      if ( $image_size > 0 ) { $billede = "<tr>
+    <td class='overskrift'>Billede</td>
+    <td class='tekst'><a href='/getimage.php?id=$id' target='_blank'><img src=\"/getimage.php?id=$id\" width='300px'/></a></td>
+</tr>"; } else { $billede = ""; }
 
 echo "
 <table>
@@ -80,6 +87,7 @@ echo "
     <td class='overskrift'>Bestilt af</td>
     <td class='tekst'>$ekspedient</td>
 </tr>
+$billede
 </table>
 <button type=\"button\" 
         onclick=\"window.open('', '_self', ''); window.close();\">Luk</button>
