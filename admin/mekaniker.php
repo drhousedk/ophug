@@ -1,13 +1,13 @@
 <head>
-    <link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-    <link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+    <link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+    <link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
     <link href="/css/styles.css" rel="stylesheet" type="text/css">
     <title>Redigér mekanikere</title>
 
 
     <style>
 
-        @import url(https://fonts.googleapis.com/css?family=Roboto:100,400);
+        @import url(http://fonts.googleapis.com/css?family=Roboto:100,400);
 
         html {
             font-size: 62.5%;

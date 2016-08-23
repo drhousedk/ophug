@@ -5,7 +5,7 @@
 </head>
 <style>
 
-    @import url(https://fonts.googleapis.com/css?family=Roboto:100,400);
+    @import url(http://fonts.googleapis.com/css?family=Roboto:100,400);
 
     html {
         font-size: 62.5%;
@@ -83,7 +83,7 @@
             <button TYPE="submit" class="knap"><span><img src="/images/spanner32.png" height="15px"/> Værksted</span>
             </button>
         </FORM>
-        <FORM METHOD="LINK" ACTION="<?php echo "https://logout@" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>">
+        <FORM METHOD="LINK" ACTION="<?php echo "http://logout@" . $_SERVER['SERVER_NAME'] . $_SERVER['REQUEST_URI']; ?>">
             <button TYPE="submit" class="knap"><span><img src="/images/unlock32.png" height="15px"/> Log ud</span>
             </button>
         </FORM>

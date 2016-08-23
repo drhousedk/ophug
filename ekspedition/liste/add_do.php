@@ -1,8 +1,8 @@
 ﻿<?php require_once('../../config.php'); ?>
 <title>Tilføjer til liste</title>
 <head>
-<link href="https://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
-<link href='https://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+<link href="http://fonts.googleapis.com/css?family=Droid+Serif" rel="stylesheet" type="text/css">
+<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
 <link href="/style.css" rel="stylesheet" type="text/css"> 
 </head>
 <p>Tilføjer til liste...</p>
